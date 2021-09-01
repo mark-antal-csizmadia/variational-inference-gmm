@@ -1,3 +1,11 @@
 # Variational Inference with Bayesian Multivariate Gaussian Mixture Model
 
-See the theoretical questions and answers that provide the full derivation of the evidence lower bound (ELBO), the coordinate ascent mean-field variational inference (CAVI) algorithm, and the optimal variational factor distribution parameter updates. The quetions are in tutorial.pdf and the answers (with most of the derivation) are in PGM_Tutorial_8.pdf.
+<a href="https://colab.research.google.com/github/mark-antal-csizmadia/variational-inference-gmm/blob/main/vi_gmm.ipynb">
+  <img align="center" src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+<a href="https://nbviewer.jupyter.org/github/mark-antal-csizmadia/variational-inference-gmm/blob/main/vi_gmm.ipynb">
+  <img align="center" src="https://img.shields.io/badge/Jupyter-Open%20In%20nbviewer-informational?style=flat&logo=Jupyter&logoColor=F37626&color=blue" />
+</a>
+
+Coordinate ascent mean-field variational inference (CAVI) using the evidence lower bound (ELBO) to iteratively perform the optimal variational factor distribution parameter updates for clustering.
